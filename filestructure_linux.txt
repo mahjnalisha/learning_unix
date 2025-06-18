@@ -1,0 +1,23 @@
+#file directory structure
+#file hierarchy structure
+/bin - binaries files
+/sbin - system binaries >> no permission for standard users >> networking is disabled 
+/boot  - no playing >> boot loaders for the operating system
+/cdrom 
+/dev  - folder for devices  >> disk for example >>dev/sda 
+/etc - eterca >> edit to configure files >> configuration files such as apt or setting .. system wide operation 
+/lib, /lib32, /lib64  ? -- libraries >> files that application can use for various functions
+/mnt, /media -- other mounted disk >> secondary disk >>mnt  >> usb >> media -- username --- devicename
+/opt -- optional folder -- third party software >> any printers software
+/proc -- sudo files contains information about system process and images - kernel transformation-- developer essentilas that gives information about cpu and uptime
+/root  -- root home folders -- 
+/run -- temp sfs -- runtime information when booted
+/snap -- self contained information
+/srv -- service directory -- server or ftp server -- better security as it separates from another hard drive
+/sys  -- graphic directory like run directory
+/tmp -- temp directory used during the session >> temporary copy -- usually emptie when booted the system
+/usr -- user application stage where application is stored based on the user >> non essentials for basic operating system >> user local lib/ bin/ sbin >> larger program >> user share 
+/var -- variable directories >> files and directories that expected to grow in size >> database  >> spool
+/var/log --  stores all the log files
+var/crash -- stores the crash application
+/home  --  each user has own home folder and each assess only access the folder .. many directories
