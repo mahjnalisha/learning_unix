@@ -1,7 +1,7 @@
 name: Unix learning
 on: [push]
 jobs:
-  say-hello::
+  say-hello:
     runs-on: ubuntu-latest
     steps:
     - name: Unix learning
