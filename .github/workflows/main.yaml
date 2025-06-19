@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Unix learning
-    run: echo "Unix Bash Scripting"
+      run: echo "Unix Bash Scripting"
     
