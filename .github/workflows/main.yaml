@@ -2,6 +2,6 @@ name: Unix learning
 on: [push]
 jobs:
   unix-bash-scripting:
-  steps:
-    -name: Print BashScripting
-    run: echo "Bash Scripting"
+    steps:
+      -name: Print BashScripting
+      run: echo "Bash Scripting"
