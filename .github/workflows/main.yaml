@@ -1,8 +1,8 @@
 name: Unix learning
 on: [push]
 jobs:
-  unix-bash-scripting:
+  say-hello::
     runs-on: ubuntu-latest
     steps:
-    -name: Print BashScripting
-    run: echo "Bash Scripting"
+    - name: Unix learning
+    
